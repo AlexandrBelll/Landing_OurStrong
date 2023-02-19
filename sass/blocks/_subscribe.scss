@@ -1,0 +1,33 @@
+.subscribe {
+    background:#F5F0DD;
+    text-align: center;
+    padding: 140px 0;
+    &-form {
+        &__title {
+            color: #fff;
+            font-size: 2.625rem;
+            font-weight: 700;
+            margin: 0 0 31px;
+        }
+        &__text {
+            color: #fff;
+            font-size: 0.9375rem;
+            margin: 0 0 60px;
+        }
+        &__input {
+            border: none;
+            border-radius: 5px;
+            color: #2C2C2C;
+            width: 524px;
+            padding: 35px 38px 33px;
+            margin: 0 20px 0 0;
+            &::placeholder {
+                opacity: 0.7019607843137254;
+            }
+        }
+        &__button {
+            padding: 31px 60px;
+            text-transform: uppercase;
+        }
+    }
+}

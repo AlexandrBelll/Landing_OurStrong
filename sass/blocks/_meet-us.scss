@@ -1,0 +1,99 @@
+.meet-us {
+    &-top {
+        margin: 122px 0 66px;
+        &__title {
+            text-transform: uppercase;
+            font-size: 2.375rem;
+            font-weight: 700;
+            margin: 0 0 34px;
+            opacity: 0.8;
+        }
+        &__text {
+            font-size: 0.9375rem;
+            line-height: 1.7em;
+            margin: 0 0 28px;
+            max-width: 446px;
+            opacity: 0.7019607843137254;
+        }
+        &__decor {
+            width: 132px;
+            border: 1px solid #FF2D2D;
+        }
+    }
+}
+
+// .meet-us-members {
+// }
+.member {
+    display: flex;
+    gap: 73px;
+    &__photo {
+        background: #F5F0DD;
+        border: none;
+        width: 322px;
+        height: 462px;
+    }
+    // &__info {
+    // }
+    &__name {
+        font-size: 1.75rem;
+        font-weight: 600;
+        text-transform: uppercase;
+        margin: 17px 0 34px;
+        opacity: 0.8;
+    }
+    &__description {
+        font-size: 0.9375rem;
+        line-height: 1.7em;
+        margin: 0 0 28px;
+        max-width: 446px;
+        opacity: 0.7019607843137254;
+    }
+    &__socials {
+        display: flex;
+        gap: 30px;
+        & li a {
+            color: #000;
+            font-size: 1.125rem;
+            font-style: italic;
+            opacity: 0.8;
+        }
+    }
+}
+
+.member-cards {
+    display: flex;
+    gap: 20px;
+    margin: 45px 0 108px;
+}
+.member-card {
+    position: relative;
+    cursor: pointer;
+    &__photo {
+        width: 198px;
+        height: 217px;
+        background: #F5F0DD;
+    }
+    
+    &__photo:hover + &__name {
+        display: block;
+    }
+
+    &__name {
+        color: #fff;    
+        background: #7A786E;
+        display: none;
+        font-size: 1.0625rem;
+        font-weight: 600;
+        padding: 12px;
+        text-align: center;
+        text-transform: uppercase;
+        position: absolute;
+        top: 176px;
+        left: 0;
+        right: 0;
+    }
+}
+
+
+

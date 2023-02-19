@@ -1,0 +1,23 @@
+.header {
+    background: #F6F2F2;
+    padding: 29px 0 0;
+    &-nav {
+        background: #313030;
+        & .nav {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            &__item a {
+                display: block;
+                text-transform: uppercase;
+                font-size: 0.875rem;
+                font-weight: bold;
+                color: #E0E0E0;
+                padding: 46px 25px 34px;
+                &:hover {
+                    background: #FF3F40;
+                }
+            }
+        }       
+    }   
+}

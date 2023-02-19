@@ -1,0 +1,50 @@
+.advantages {
+    &__row {
+        display: flex;
+        padding: 113px 0 107px;
+        border-bottom: 5px solid #ECECEC;
+    }
+    &__column-left {
+        flex: 1 1 50%;
+    }
+    &__column-right {
+        display: flex;
+        flex-flow: row wrap;
+        flex: 1 1 50%;
+        justify-content: space-between;
+    }  
+    &__title {
+        font-size: 2.625rem; 
+        font-weight: 700;
+        text-transform: uppercase;
+        line-height: 1.2em;
+        margin: 0 0 50px;
+        opacity: 0.8;
+    }
+    &__text {
+        line-height: 1.4em;
+        margin: 0 0 56px;
+        max-width: 512px;
+    }
+    // &__button {
+    // }    
+}
+
+.advantages-card {
+    flex: 0 1 46%;
+    margin: 0 0 46px;
+    &__icon {
+        margin: 0 0 29px;
+    }
+    &__title {
+        font-size: 1.6875rem; 
+        font-weight: 600;
+        margin: 0 0 17px;
+        opacity: 0.7019607843137254;
+    }
+    &__text {
+        line-height: 1.4em;
+        opacity: 0.7019607843137254;
+    }
+}
+
